@@ -4,7 +4,7 @@ static const Block blocks[] = {
 
         {"  ", "./scripts/crypto",                                             3600,           0},
 
-	{"❯ ", "uname -s",							0,		0},
+	{"❯ ", "uname -r",							0,		0},
 
 	{"", "./scripts/vol",							10,		0},
 
