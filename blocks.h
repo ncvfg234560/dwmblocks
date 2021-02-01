@@ -2,7 +2,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 
-        {"  ", "./scripts/crypto",                                             3600,           0},
+        {"  ", "coinmon -f bat | grep BAT | awk '{print $6}'",                 3600,           0},
 
 	{"❯ ", "uname -r",							0,		0},
 
