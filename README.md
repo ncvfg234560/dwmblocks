@@ -2,7 +2,6 @@
 A customizable status bar
 
 ## Required fonts, packages, patches, etc.
-- `coinmon`: A terminal cryptocurrency viewer
 - `alsa/pulseaudio`: Used for volume status
 - `libxft-bgra`: Needed for unicode/emoji support
 - `dwm`: Duh...
